@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <remote name="ronimuliawan"
+            fetch="https://github.com/ronimuliawan" />
+
     <remote name="Redwood-AOSP"
             fetch="https://github.com/Redwood-AOSP" />
 
     <project path="device/xiaomi/redwood"
              name="android_device_xiaomi_redwood"
-             remote="Redwood-AOSP"
+             remote="ronimuliawan"
              revision="sixteen-qpr2" />
 
     <project path="vendor/xiaomi/redwood"
              name="android_vendor_xiaomi_redwood"
-             remote="Redwood-AOSP"
+             remote="ronimuliawan"
              revision="sixteen-qpr2" />
 
     <project path="device/xiaomi/redwood-kernel"
