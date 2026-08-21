@@ -37,6 +37,9 @@
              remote="Redwood-AOSP"
              revision="sixteen-qpr2" />
 
-    <remove-project name="LineageOS/android_hardware_lineage_compat" />
+    <project path="hardware/compat"
+             name="android_compat"
+             remote="ronimuliawan"
+             revision="sixteen-qpr2" />
 
 </manifest>
